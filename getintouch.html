@@ -29,7 +29,7 @@
 
 <div class="form-position">   
 <h1> Get in Touch</h1>
-    <form action="https://formsubmit.co/sharmilli.noushin@hyahoo.com" method="POST">
+    <form action="https://formsubmit.co/sharmilli.noushin@hyahoo.com" method="post">
         <label for="fname">First Name:</label>
         <input type="text" id="fname" name="fname" required>
         <br>
@@ -40,10 +40,18 @@
         <input type="email" id="email" name="email" required>
         <br>
         <label for="message">Message:</label>
-        <textarea id="message" name="message" maxlength="1000" required>write here...</textarea>
+        <textarea id="message" name="message" placeholder="write here" maxlength="1000" required></textarea>
         <br>
         <button type="submit">Send</button>
      </form> 
-</div>
+<div id="successMessage" style="display: none; color:black; font-size: 18px;">Your message has been sent successfully!</div>
+
+</div><script>
+    function showSuccessMessage(event) {
+        event.preventDefault(); 
+        document.getElementById("successMessage").style.display = "block"; 
+    }
+</script>
+
 </body>
 </html>
