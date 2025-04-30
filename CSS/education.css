@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;  
+    padding: 0;
+    margin: 0;
+    background-color:	#4B5320;
+}
+
+.education {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "title    title     title"
+      "code     stockholm uppsala";
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  .education > h1 {
+    grid-area: title;
+    text-align: center;
+    font-size: 2rem;
+    color: #F5F5DC;
+    margin-bottom: 1rem;
+  }
+
+
+  .education .code {
+    grid-area: code;
+  }
+  
+  .education .Stockholm {
+    grid-area: stockholm;
+  }
+  
+  .education .Uppsala {
+    grid-area: uppsala;
+  }
+  .education .code,
+.education .Stockholm,
+.education .Uppsala {
+  background:#F5F5DC ;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  color:#4B5320 ;
+}
+
+.education .code:hover,
+.education .Stockholm:hover,
+.education .Uppsala:hover {
+  transform: translateY(-5px);
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #4B5320; 
+  padding: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color:#F5F5DC;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: white; 
+}

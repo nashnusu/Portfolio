@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, sans-serif;  
+    display: flex;
+    color: #F5F5DC ;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px;
+    background-image: url('../images/skyscraper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.form-position {
+    background-color:#4B5320;
+    width: 500px;
+    padding: 50px;
+    height: 700px;
+    border-radius: 10px;
+   
+}
+form {
+    display: flex;
+    flex-direction: column;  
+    gap: 15px; 
+}
+
+
+input, textarea {
+    width: 100%; 
+    padding: 10px;
+    margin: 5px 0; 
+    border-radius: 4px;
+    background-color:#F5F5DC;
+    border: 1px solid ;
+    color:#4B5320;
+    box-sizing: border-box; 
+}
+
+label {
+    font-size: 16px;
+    color:#F5F5DC;
+}
+
+button {
+    background-color:#F5F5DC; 
+    color:#4B5320 ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#4B5320; 
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Info {
+    width: 300px;
+    background-color: rgba(245, 245, 220, 0.85);
+    color:#F5F5DC ;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-self: flex-start;
+}
+.Info h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.Info i {
+    margin-right: 10px; 
+    color: white; 
+    font-size: 1.5em; 
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    gap: 30px;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    width: 80%;
+  }
+  .navbar a {
+    text-decoration: none;
+    color:#4B5320;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: white; 
+  }
