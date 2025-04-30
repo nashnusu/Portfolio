@@ -63,16 +63,16 @@ body {
  html {
     scroll-behavior: smooth;
   }
-
-
   .footer {
     text-align: center;
     background-color: #4B5320;
     color: #F5F5DC;
     padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     font-size: 1rem;
-}
+    position: relative; 
+    width: 100%;
+  }
+  
+
+ 
 
