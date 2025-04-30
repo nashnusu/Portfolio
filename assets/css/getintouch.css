@@ -110,3 +110,39 @@ button:hover {
   .navbar a:hover {
     color: white; 
   }
+  @media (max-width: 600px) {
+    .form-position {
+        width: 90%;
+        height: auto;
+        padding: 30px;
+    }
+
+    input, textarea {
+        padding: 8px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .Info {
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .Info h1 {
+        font-size: 18px;
+    }
+
+    .navbar a {
+        font-size: 1rem;
+    }
+}
