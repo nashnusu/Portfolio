@@ -110,6 +110,8 @@ button:hover {
   .navbar a:hover {
     color: #4B5320; 
   }
+
+  /* fix responsiveness in smaller screens */
   @media (max-width: 768px) {
     .form-position {
         width: 90%;

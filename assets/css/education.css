@@ -70,6 +70,8 @@ body {
 .navbar a:hover {
   color: white; 
 }
+/* fix responsiveness in smaller screens */
+
 @media (max-width: 768px) {
   .education {
     grid-template-columns: 1fr;

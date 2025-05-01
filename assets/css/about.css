@@ -11,6 +11,7 @@ align-items: center;
 justify-content: space-between;
 gap: 3rem;  
 }
+
 .about {
 display: flex;
 flex-wrap: wrap;
@@ -59,8 +60,9 @@ font-weight: bold;
 color: white;
 }
 
+/* fix responsiveness in tablets */
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {                                       
 .intro, .about {
     gap: 2rem;
 }
@@ -85,11 +87,12 @@ color: white;
 }
 }
 
+/* fix responsiveness in mobile */
 @media (max-width: 480px) {
 .intro, .about {
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.5rem;                              
 }
 
 .img1, .img3 {
