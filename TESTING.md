@@ -69,7 +69,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | --- | --- |  --- |  --- |  --- |
 | Navigation bar | Expected to work consistently on all pages and device sizes. |Clicked all links across devices (desktop, tablet, mobile).  |Navigation was consistent and functional. | ![screenshot](/assets/images/homedesk.png)|![screenshot](/assets/images/Homemobile.png)|
 | Form validation|Form should not submit empty or incorrect values. |Tried submitting the contact form with empty fields and invalid email. |Form submission was blocked with error prompts. | ![screenshot](/assets/images/req.png) |
-| Responsive layout| Content should adapt correctly to screen size. |Resized browser and tested on phone and tablet. | Layout adjusted smoothly without overlapping elements. | ![screenshot](/assets/images/abolightdesk.png)|
+| Responsive layout| Content should adapt correctly to screen size. |Resized browser and tested on phone and tablet. | Layout adjusted smoothly without overlapping elements. | ![screenshot](/assets/images/aboutmobile.png)|
 | External links| External links should open in new tabs securely.  | Clicked GitHub links  | Links opened in new tabs as expected.| ![screenshot](/assets/images/githublink.png) |
 
 ## User Story Testing
@@ -85,24 +85,23 @@ Defensive programming was manually tested with the below user acceptance testing
 
 
 ## Bugs
+-Navigation bar overlapped content on smaller screens
+How it was found: Manually tested site responsiveness on mobile viewports-Fix: Added CSS media queries to adjust layout and padding-Status: ✅ Fixed
 
+-Layout shifting occurred on the Education page
+How it was found: Visual glitch seen during browser testing-Fix: Refined container widths and spacing using Flexbox-Status: ✅ Fixed
 
-| Bugs description | How it was found | Fix  | Status | 
-| --- | --- | --- | --- | 
+-Contact form gave no feedback after submission
+How it was found: Tested form submission without success confirmation-Fix: Implemented JavaScript alert on form submission-Status: ✅ Fixed
 
-| Navigation bar overlapped content on smaller screens | Manually tested site responsiveness on mobile viewports | Added CSS media queries to adjust layout and padding | ✅ Fixed |
-| Layout shifting occurred on the Education page | Visual glitch seen during browser testing | Refined container widths and spacing using Flexbox | ✅ Fixed |
-| Contact form gave no feedback after submission | Tested form submission without success confirmation | Implemented JavaScript alert on form submission | ✅ Fixed |
-| Some external links didn’t open in new tabs | Clicked external links during final walkthrough | Added target="_blank" to <a> tags for all external links | ✅ Fixed |
-|
+-Some external links didn’t open in new tabs
+How it was found: Clicked external links during final walkthrough-Fix: Added target="_blank" to <a> tags for all external links-Status: ✅ Fixed
 
 ### Known Issues
-
-| --- Known Issue --- | --- Description --- | --- Possible Solution --- | --- Status --- |
-| --- | --- |
-
-| --- None --- | --- No known issues at the moment. --- | --- N/A --- | --- ✅ None --- |
-
+-Known Issue: None
+Description: No known issues at the moment.
+Possible Solution: N/A
+Status: ✅ None
 
 > [!IMPORTANT]
 > There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.
