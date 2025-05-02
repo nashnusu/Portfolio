@@ -9,101 +9,46 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-|  | [404.html](https://github.com/nashnusu/Portfolio/blob/master/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://nashnusu.github.io/Portfolio/404.html) | ![screenshot](documentation/validation/html--404.png) | Notes (if applicable) |
-|  | [about.html](https://github.com/nashnusu/Portfolio/blob/master/about.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://nashnusu.github.io/Portfolio/about.html) | ![screenshot](documentation/validation/html--about.png) | Notes (if applicable) |
-|  | [education.html](https://github.com/nashnusu/Portfolio/blob/master/education.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://nashnusu.github.io/Portfolio/education.html) | ![screenshot](documentation/validation/html--education.png) | Notes (if applicable) |
-|  | [getintouch.html](https://github.com/nashnusu/Portfolio/blob/master/getintouch.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://nashnusu.github.io/Portfolio/getintouch.html) | ![screenshot](documentation/validation/html--getintouch.png) | Notes (if applicable) |
-|  | [index.html](https://github.com/nashnusu/Portfolio/blob/master/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://nashnusu.github.io/Portfolio/index.html) | ![screenshot](documentation/validation/html--index.png) | Notes (if applicable) |
+|About| [about.html](https://nashnusu.github.io/Portfolio/about.html)| ![screenshot](/assets/images/aboutval.png) | 
+|Education| [education.html](https://nashnusu.github.io/Portfolio/education.html) |![screenshot](/assets/images/eduvalidate.png) | 
+|Get in touch| [getintouch.html](https://nashnusu.github.io/Portfolio/getintouch.html)|![screenshot](/assets/images/getvalidate.png | 
+|Home| [index.html](https://nashnusu.github.io/Portfolio/index.html) |![screenshot](/assets/images/indexvalidate.png) | 
 
 
 ### CSS
-
-⚠️ INSTRUCTIONS ⚠️
-
-1. [*recommended*] If you are using the live deployed site, use this link: https://jigsaw.w3.org/css-validator/#validate_by_uri
-2. If you are copying/pasting your CSS code, use this link: https://jigsaw.w3.org/css-validator/#validate_by_input
-
-It's recommended to validate the live site for your primary CSS file on the deployed URL. This will give you a custom URL as well, which you can use below on your testing documentation. It makes it easier to return back to a page for validating it again in the future. The URL will look something like this:
-
-- https://jigsaw.w3.org/css-validator/validator?uri=https://nashnusu.github.io/Portfolio
-
-If you have additional/multiple CSS files, then individual "[validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)" is recommended for the extra CSS files.
-
-**IMPORTANT**: Third-Party tools
-
-If you're using external libraries/frameworks (e.g: Bootstrap, Materialize, Font Awesome, etc.), then sometimes the tool will attempt to also validate these, even though it's not part of your own actual code that you wrote. You are not required to validate the external libraries or frameworks!
-
-⚠️ --- END --- ⚠️
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets | [about.css](https://github.com/nashnusu/Portfolio/blob/master/assets/css/about.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://nashnusu.github.io/Portfolio) | ![screenshot](documentation/validation/css-assets-about.png) | Notes (if applicable) |
-| assets | [education.css](https://github.com/nashnusu/Portfolio/blob/master/assets/css/education.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://nashnusu.github.io/Portfolio) | ![screenshot](documentation/validation/css-assets-education.png) | Notes (if applicable) |
-| assets | [getintouch.css](https://github.com/nashnusu/Portfolio/blob/master/assets/css/getintouch.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://nashnusu.github.io/Portfolio) | ![screenshot](documentation/validation/css-assets-getintouch.png) | Notes (if applicable) |
-| assets | [index.css](https://github.com/nashnusu/Portfolio/blob/master/assets/css/index.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://nashnusu.github.io/Portfolio) | ![screenshot](documentation/validation/css-assets-index.png) | Notes (if applicable) |
+| About | [about.css](https://nashnusu.github.io/Portfolio/about.css) |![screenshot](/assets/images/aboutcsval.png) |
+| Education | [education.css](https://nashnusu.github.io/Portfolio/education.css) |![screenshot](/assets/images/educsv.png)
+| Get in touch | [getintouch.css](https://nashnusu.github.io/Portfolio/getintouch.css) |![screenshot](/assets/images/getvalidate.png) 
+| Home | [index.css](https://nashnusu.github.io/Portfolio/index.css)) |![screenshot](/assets/images/indexvalidate.png) |
 
 
 ## Responsiveness
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is to test the following 3 sizes:
-
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of your results, to "prove" that you've actually tested them.
-
-Using the [amiresponsive](http://ami.responsivedesign.is) mockup images (*or similar*) does not meet the requirements. Consider using some of the built-in device sizes from the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well. It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-⚠️ --- END --- ⚠️
 
 I've tested my deployed project to check for responsiveness issues.
 
 | Page | Mobile | Tablet | Desktop | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/responsiveness/mobile-home.png) | ![screenshot](documentation/responsiveness/tablet-home.png) | ![screenshot](documentation/responsiveness/desktop-home.png) | Works as expected |
-| Gallery | ![screenshot](documentation/responsiveness/mobile-gallery.png) | ![screenshot](documentation/responsiveness/tablet-gallery.png) | ![screenshot](documentation/responsiveness/desktop-gallery.png) | Works as expected |
-| Signup | ![screenshot](documentation/responsiveness/mobile-signup.png) | ![screenshot](documentation/responsiveness/tablet-signup.png) | ![screenshot](documentation/responsiveness/desktop-signup.png) | Works as expected |
-| Confirmation | ![screenshot](documentation/responsiveness/mobile-confirmation.png) | ![screenshot](documentation/responsiveness/tablet-confirmation.png) | ![screenshot](documentation/responsiveness/desktop-confirmation.png) | Works as expected |
-| 404 | ![screenshot](documentation/responsiveness/mobile-404.png) | ![screenshot](documentation/responsiveness/tablet-404.png) | ![screenshot](documentation/responsiveness/desktop-404.png) | Works as expected |
+| Home | ![screenshot](/assets/images/Homemobile.png) | ![screenshot](/assets/images/Hometablet.png) | ![screenshot](/assets/images/homedesk.png) | Works as expected |
+| About| ![screenshot](/assets/images/aboutmobile.png) | ![screenshot](/assets/images/abouttablet.png) | ![screenshot](/assets/images/aboutdesktop.png) | Works as expected |
+| Education | ![screenshot](/assets/images/edumobile.png) | ![screenshot](/assets/images/edutablet.png) | ![screenshot](/assets/images/edudesk.png) | Works as expected |
+| Get intouch| ![screenshot](/assets/images/getmobile.png) | ![screenshot](/assets/images/gettablet.png) | ![screenshot](/assets/images/get.png) | Works as expected |
+
 
 ## Browser Compatibility
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss testing the live/deployed site on various browsers. Consider testing at least 3 different browsers, if available on your system. You DO NOT need to use all of the browsers below, just pick any 3 (minimum).
-
-Recommended browsers to consider:
-- [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
-
-**IMPORTANT**: You must provide screenshots of the browsers you've tested, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time. Some of these are paid services, but some are free. If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-⚠️ --- END --- ⚠️
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Page | Chrome | Firefox | Safari | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/safari-home.png) | Works as expected |
-| Gallery | ![screenshot](documentation/browsers/chrome-gallery.png) | ![screenshot](documentation/browsers/firefox-gallery.png) | ![screenshot](documentation/browsers/safari-gallery.png) | Works as expected |
-| Signup | ![screenshot](documentation/browsers/chrome-signup.png) | ![screenshot](documentation/browsers/firefox-signup.png) | ![screenshot](documentation/browsers/safari-signup.png) | Works as expected |
-| Confirmation | ![screenshot](documentation/browsers/chrome-confirmation.png) | ![screenshot](documentation/browsers/firefox-confirmation.png) | ![screenshot](documentation/browsers/safari-confirmation.png) | Works as expected |
-| 404 | ![screenshot](documentation/browsers/chrome-404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/safari-404.png) | Works as expected |
+| Home | ![screenshot]() | ![screenshot](/assets/images/homechrome.png) | ![screenshot](/assets/images/homfire.png) |![screenshot](/assets/images/homedesk.png) | Works as expected |
+| About| ![screenshot](/assets/images/aboutchotme.png) | ![screenshot](/assets/images/aboutfire.png) | ![screenshot](/assets/images/aboutdesktop.png) | Works as expected |
+| Education | ![screenshot](/assets/images/educhomre.png) | ![screenshot](/assets/images/edufire.png) | ![screenshot](/assets/images/edudesk.png) | Works as expected | | Works as expected |
+| Get in touch | ![screenshot](/assets/images/getchrome.png) | ![screenshot](/assets/images/getfire.png) | ![screenshot](/assets/images/get.png) | Works as expected |
 
 ## Lighthouse Audit
 
@@ -122,10 +67,10 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Page | Mobile | Desktop |
 | --- | --- | --- |
 | Home | ![screenshot](documentation/lighthouse/mobile-home.png) | ![screenshot](documentation/lighthouse/desktop-home.png) |
-| Gallery | ![screenshot](documentation/lighthouse/mobile-gallery.png) | ![screenshot](documentation/lighthouse/desktop-gallery.png) |
-| Signup | ![screenshot](documentation/lighthouse/mobile-signup.png) | ![screenshot](documentation/lighthouse/desktop-signup.png) |
-| Confirmation | ![screenshot](documentation/lighthouse/mobile-confirmation.png) | ![screenshot](documentation/lighthouse/desktop-confirmation.png) |
-| 404 | ![screenshot](documentation/lighthouse/mobile-404.png) | ![screenshot](documentation/lighthouse/desktop-404.png) |
+| About | ![screenshot](documentation/lighthouse/mobile-gallery.png) | ![screenshot](documentation/lighthouse/desktop-gallery.png) |
+| Education | ![screenshot](documentation/lighthouse/mobile-signup.png) | ![screenshot](documentation/lighthouse/desktop-signup.png) |
+| Get in touch | ![screenshot](documentation/lighthouse/mobile-confirmation.png) | ![screenshot](documentation/lighthouse/desktop-confirmation.png) |
+
 
 ## Defensive Programming
 

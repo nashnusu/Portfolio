@@ -10,7 +10,7 @@ body {
     justify-content: center;
     gap: 30px;
     background-color: #4B5320; 
-    padding: 20px;
+    padding: 20px 0;
   }
   .navbar a {
     text-decoration: none;
