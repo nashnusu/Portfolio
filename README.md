@@ -1,38 +1,40 @@
-# [Portfolio](https://nashnusu.github.io/Portfolio)
+# [travel-website](https://nashnusu.github.io/travel-website)
 
 Developer: Nash Sharmilli ([nashnusu](https://www.github.com/nashnusu))
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/nashnusu/Portfolio)](https://www.github.com/nashnusu/Portfolio/commits/master)
-[![GitHub last commit](https://img.shields.io/github/last-commit/nashnusu/Portfolio)](https://www.github.com/nashnusu/Portfolio/commits/master)
-[![GitHub repo size](https://img.shields.io/github/repo-size/nashnusu/Portfolio)](https://www.github.com/nashnusu/Portfolio)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/nashnusu/travel-website)](https://www.github.com/nashnusu/travel-website/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/nashnusu/travel-website)](https://www.github.com/nashnusu/travel-website/commits/main)
+[![GitHub repo size](https://img.shields.io/github/repo-size/nashnusu/travel-website)](https://www.github.com/nashnusu/travel-website)
 
-This is a personal portfolio website built to showcase my skills, projects, and background as a developer. It’s designed to provide a quick and clear introduction to who I am and what I do. The site is aimed at potential employers, collaborators, and anyone interested in my work — offering a simple, responsive, and accessible way to explore my journey.
 
+## UX
 
 ### The 5 Planes of UX
 
 #### 1. Strategy
 
 **Purpose**
-The portfolio website is designed to present my skills, background, and projects as an aspiring full-stack developer in a clean and engaging way.
+- Provide users with a simple and accessible way to decide their neext travel destination.
+- Deliver instant feedback with the Quiz.
+- Support accessibility and user-friendly interactions.
+
 **Primary User Needs**
-Visitors need to quickly understand who I am, what I do, and how to view or contact me regarding my work.
+- Get information about famous destinations .
+- Get suggestions to on how to prepare for a trip.
+
 **Business Goals**
-To increase visibility, build credibility as a developer, and encourage collaboration or hiring opportunities.
+- Encourage users to engage with the website to decided what might be their next destination.
 
 #### 2. Scope
+ 
+ **[Features](#features)** (see below)
+ -Responsive navigation bar
+ -Sectioned content (About, Quiz, Plan your trip)
 
-**[Features](#features)** (see below)
--Responsive navigation bar
--Sectioned content (About, Education, Projects, Contact)
--Project descriptions with GitHub links
--Contact form
 **Content Requirements**
--Concise personal introduction
--Project overviews and visuals
--Educational background
--Contact mechanism
--Link to GitHub and live projects
+- Clear labels and instructions for navigation.
+- Overviews of different famous destinations.
+- Instant suggestion of a location through a Quiz.
 
 #### 3. Structure
 
@@ -40,75 +42,73 @@ To increase visibility, build credibility as a developer, and encourage collabor
 -Navigation Menu: Fixed navbar linking to all major sections
 -Hierarchy: Headings and sections organized for scannability
 -Accessibility: Clear color contrast and alt text for images
+
 **User Flow**
-1.User lands on the home page → sees intro
-2.Navigates to About → learns background and story
-3.Views Education and Projects → understands qualifications and skills
-4.Clicks GitHub links or uses contact form → takes action
+1. User lands on the home page → reads brief instructions.
+2. Navigates to Quiz → does the Quiz to get suggestions.
+3. views plan your trip to get suggestions about how to prepare for a trip.
 
 #### 4. Skeleton
-The site has four main sections: Home, About, Education, and Get in Touch.
+The site has three main sections: Home, Quiz and Plan your trip.
 Navigation: Links to all sections.
-User Flow: Explore Home, About, Education, then contact via Get in Touch.
+User Flow: Explore Home, Quiz and Plan your trip.
 
 #### 5. Surface
 
 **Visual Design Elements**
--Colours: Earthy tones like green (#4B5320) and beige (#F5F5DC) create a calm, professional atmosphere.
+-Colours: light tones like coral ( #f08080) and white (#ffffff) create a calm, professional atmosphere.
 -Typography: Clean sans-serif fonts like Arial ensure readability and a modern look.
 -Visual Balance: Ample whitespace and selective use of icons and images maintain a balanced, visually appealing layout.
 
 ### Colour Scheme
-The color palette for my portfolio includes:
-#4B5320: Earthy green for primary elements like the background and header.
-#F5F5DC: Soft beige for text and accents.
-#FFFFFF: White for highlights and contrast.
-These colors create a calm, professional, and welcoming atmosphere.
 
-![screenshot](/assets/images/color.png)
+- #ffffff primary background.
+- #f08080 primary text.
+- #c06060 secondary text.
+-
+
+![screenshot](documentation/coolors.png)
 
 ### Typography
 Fonts: The site uses Arial for body text, with sans-serif as a fallback for readability.
 Icons: Native CSS and SVG icons are used, no external icon libraries.
 
+
 ## Wireframes
 No wireframes were created for this project. Instead, I focused on building a responsive layout that adapts seamlessly across desktop, tablet, and mobile devices. Below are screenshots of the actual website displayed on different devices:
 
-
-| Desktop | Mobile | Tablet 
+| Desktop | Mobile| Tablet |
 | --- | --- | --- | --- |
-| Home | ![screenshot](/assets/images/homedesk.png) | ![screenshot](/assets/images/Homemobile.png) | ![screenshot](/assets/images/Hometablet.png) |
-| About | ![screenshot](/assets/images/aboutdesktop.png) | ![screenshot](/assets/images/aboutmobile.png) | ![screenshot](/assets/images/abouttablet.png) |
-| Education | ![screenshot](/assets/images/aboutdesktop.png) | ![screenshot](/assets/images/edumobile.png) | ![screenshot](/assets/images/edutablet.png) |
-| Get in Touch | ![screenshot](/assets/images/contactdesk.png) | ![screenshot](/assets/images/getmobile.png) | ![screenshot](/assets/images/gettablet.png) |
-| 404 | ![screenshot](/assets/images/404desk.png) | ![screenshot](/assets/images/errormob.png) | ![screenshot](/assets/images/errortab.png) |
+| Home | ![screenshot](/assets/images/homedesk.png)| ![screenshot]([screenshot](/assets/images/homemob.png)) | ![screenshot]([screenshot](/assets/images/hometab.png)) |
+| Quiz | ![screenshot](/assets/images/quizdesk.png) | ![screenshot](/assets/images/quizmob.png) | ![screenshot](/assets/images/quiztab.png) |
+| Plan your Trip | ![screenshot](/assets/images/plandesk.png) | ![screenshot](/assets/images/planmob.png) | ![screenshot](/assets/images/plantab.png) |
 
 ## User Stories
 
 | Target | Expectation | Outcome |
 | --- | --- | --- |
-| As a visitor | I want to quickly understand the developer’s skills |So that I know if they match the needs of my project or team. |
-| As a visitor | I want to view past projects|So that I can evaluate the developer’s experience and work quality. |
-| As a user |I want to get in touch with the developer | so that I can reach out for collaboration or inquiries.. |
-| As an user |I want the site to work well on all devices |So that I can view it on my phone, tablet, or desktop with no issues.|
-
+| As a visitor | I want to quickly get information about locations|so that it might help me in the planning my trip.
+| As a visitor | I want to know about all the famous locations and get basic infomration | so that i know to navigate in those locations 
+| As a user | I would like the website to have high-contrast colors and accessible fonts | so that I can easily read and interact with it. |
+| As a user | I would like clear labels and instructions | so that I understand how to navigate the app without confusion. |
+| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. |
 
 ## Features
 
+### Existing Features
+
 | Feature | Notes | Screenshot |
 | --- | --- | --- |
-| Navbar | responsive navbar appears on all pages with links to Home, About, Education, and Get in Touch. It helps users smoothly navigate the site from any device. | ![screenshot](/assets/images/navbar.png) |
-| Hero section|The homepage features a bold hero section with name and tagline, creating a strong first impression. | ![screenshot](/assets/images/hero.png) |
-| About Page | Gives a brief overview of background, interests, and personality to help users get to know the developer. | ![screenshot](/assets/images/about.png) |
-| Education section|Lists all educational background in a clear, organized way to showcase qualifications. | ![screenshot](/assets/images/edu.png) |
-| Projects section | Highlights featured projects with short descriptions and links to GitHub, showing skills in action. | ![screenshot](/assets/images/projects.png) |
-| Get in touch|Provides a simple form or information to let users reach out, supporting communication and networking. | ![screenshot](/assets/images/get.png) |
+
+| Navbar | responsive navbar appears on all pages with links to Home, Quiz and Plan your trip. It helps users smoothly navigate the site from any device. | ![screenshot](/assets/images/nav.png) |
+| Hero section|The homepage features a bold hero section with name and tagline, creating a strong first impression. | ![screenshot](/assets/images/nav.png) |
+| Home Page | Gives a brief idea about the website is about and how to navigate it. | ![screenshot](/assets/images/nav.png) |
 
 ### Future Features
--Dark Mode: Toggle for light/dark theme.
--Project Filter: Sort projects by category or tech.
--Multilingual Support: View site in other languages.
--Download CV: Button to download resume.
+
+- **Dark Mode**: Add a dark mode option to enhance user experience and reduce eye strain during extended use.
+- **Customizable Themes**: Allow users to choose different themes, colors, or layouts for personalizing their experience.
+-ed quizzes or games to help users improve their arithmetic skills while using the app.
 
 ## Tools & Technologies
 
@@ -120,47 +120,81 @@ No wireframes were created for this project. Instead, I focused on building a re
 | [![badge](https://img.shields.io/badge/VSCode-grey?logo=htmx&logoColor=007ACC)](https://code.visualstudio.com) | Local IDE for development. |
 | [![badge](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) | Main site content and layout. |
 | [![badge](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) | Design and layout. |
+| [![badge](https://img.shields.io/badge/JavaScript-grey?logo=javascript&logoColor=F7DF1E)](https://www.javascript.com) | User interaction on the site. |
 | [![badge](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) | Hosting the deployed front-end site. |
-| [![badge](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) | Icons. |
-| [![badge](https://img.shields.io/badge/ChatGPT-grey?logo=openai&logoColor=75A99C)](https://chat.openai.com) | Help debug, troubleshoot, and explain things. |
-| [![badge](https://img.shields.io/badge/W3Schools-grey?logo=w3schools&logoColor=04AA6D)](https://www.w3schools.com) | Tutorials/Reference Guide |
 
 
 ## Agile Development Process
 
 ### GitHub Projects
 
-[GitHub Projects](https://www.github.com/nashnusu/Portfolio/projects)  was used to organize and track progress using a Kanban board. Tasks were split into user stories and managed through GitHub Issues.
-![screenshot](/assets/images/projectboard.png)
+[GitHub Projects](https://www.github.com/nashnusu/travel-website/issues)  was used to organize and track progress using a Kanban board. Tasks were split into user stories and managed through GitHub Issues.
+![screenshot](/assets/images/project.png)
+
 
 ### GitHub Issues
 
-[GitHub Issues](https://www.github.com/nashnusu/Portfolio/issues) All issues raised during development were successfully closed, ensuring a complete and polished final product
-![screenshot](/assets/images/issues.png)
+[GitHub Issues](https://www.github.com/nashnusu/travel-website/issues)  All issues raised during development were successfully closed, ensuring a complete and polished final product
+![screenshot](/assets/images/issue.png)
 
 ### MoSCoW Prioritization
 
 I've decomposed my Epics into User Stories for prioritizing and implementing them. Using this approach, I was able to apply "MoSCoW" prioritization and labels to my User Stories within the Issues tab.
 
-- **Must Have**: Form needs a success message - required to Pass the project 
-- **Should Have**: Website layout not responsive in smaller gadgets
-- **Could Have**: Replace float with flex 
+- **Must Have**: Fix quiz submission and result display
+- **Should Have**: Implement Personalized Destination Recommendations Based on User Interests
+- **Could Have**: Add a Travel Tips Section with Packing and Preparation Advice
 
 ## Testing
 
 > For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
+## Deployment
+
 ### GitHub Pages
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-- In the [GitHub repository](https://www.github.com/nashnusu/Portfolio), navigate to the "Settings" tab.
+- In the [GitHub repository](https://www.github.com/nashnusu/travel-website), navigate to the "Settings" tab.
 - In Settings, click on the "Pages" link from the menu on the left.
-- From the "Build and deployment" section, click the drop-down called "Branch", and select the **master** branch, then click "Save".
+- From the "Build and deployment" section, click the drop-down called "Branch", and select the **main** branch, then click "Save".
 - The page will be automatically refreshed with a detailed message display to indicate the successful deployment.
 - Allow up to 5 minutes for the site to fully deploy.
 
-The live link can be found on [GitHub Pages](https://nashnusu.github.io/Portfolio).
+The live link can be found on [GitHub Pages](https://nashnusu.github.io/travel-website).
+
+
+
+### Local Development
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://www.github.com/nashnusu/travel-website).
+2. Locate and click on the green "Code" button at the very top, above the commits and files.
+3. Select whether you prefer to clone using "HTTPS", "SSH", or "GitHub CLI", and click the "copy" button to copy the URL to your clipboard.
+4. Open "Git Bash" or "Terminal".
+5. Change the current working directory to the location where you want the cloned directory.
+6. In your IDE Terminal, type the following command to clone the repository:
+	- `git clone https://www.github.com/nashnusu/travel-website.git`
+7. Press "Enter" to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://www.github.com/nashnusu/travel-website)
+
+**Please Note**: in order to directly open the project in Gitpod, you should have the browser extension installed. A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+By forking the GitHub Repository, you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository. You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://www.github.com/nashnusu/travel-website).
+2. At the top of the Repository, just below the "Settings" button on the menu, locate and click the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account
  
 ### Local VS Deployment
 
@@ -179,16 +213,15 @@ There are no remaining major differences between the local version when compared
 
 - Images
     - [Pexels](https://www.pexels.com)
-    - [Unsplash](https://unsplash.com)
     - [Lorem Picsum](https://picsum.photos) (placeholder images)
     - [Wallhere](https://wallhere.com) (wallpaper / backgrounds)
+    
     
 | Source | Notes |
 | --- | --- |
 | [favicon.io](https://favicon.io) | Generating the favicon |
 | [Font Awesome](https://fontawesome.com) | Icons used throughout the site |
-| [Pexels](https://www.pexels.com/photo/misty-night-sky-over-high-tatras-mountains-29815559/) | Hero image |
-| [Unsplash](https://unsplash.com/photos/low-angle-photo-of-city-high-rise-buildings-during-daytime-PhYq704ffdA) | Get in touch |
+| [Pexels](https://images.pexels.com/photos/29623958/pexels-photo-29623958/free-photo-of-women-in-traditional-vietnamese-dress-in-lotus-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) | Hero image |
 
 
 ### Acknowledgements
@@ -196,5 +229,4 @@ There are no remaining major differences between the local version when compared
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) Tutor Team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
-
 
